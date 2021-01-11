@@ -8,3 +8,16 @@ while i < a_list:
         even += 1
     i += 1
 print(even)
+
+
+
+# Дан список целых чисел. Подсчитать сколько четных чисел в списке
+numbers = input()
+
+even = 0
+
+for i in numbers:
+    if int(i) % 2 == 0:
+        even += 1
+
+print(even)

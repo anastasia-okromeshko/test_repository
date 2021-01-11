@@ -10,3 +10,18 @@ while len(fibo) < 10:
     fibo.append(fibo[-1] + fibo[-2])
 
 print(fibo)
+
+
+
+# Составить список чисел Фибоначчи содержащи 15 элементов.
+chisla = int(input())
+f1 = 1
+f2 = 2
+print(f1, f2, end=" ")
+for i in range(3,chisla+1):
+    print(f1+f2, end=" ")
+    a = f1
+    f1 = f2
+    f2 = a+f1
+
+print()

@@ -8,3 +8,13 @@ while i < dl_list:
     list[i] = list[i] * -2
     i +=1
 print(list)
+
+
+
+# Дан список целых чисел.Создать новый список, каждый элемент которого равен
+# исходному элементу умноженному на -2
+numbers = input()
+new_numbers = []
+for i in numbers:
+    new_numbers.append(int(i) * -2)
+print(new_numbers)
